@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const relation = new Map(); // Map having channels as keys and values as objects containing subscribe and publish arrays
 
-const rideDirectory = "./rideManagement";
+const rideDirectory = "./flightService";
 
 function traverseChannel(doc) {
   return new Promise((resolve, reject) => {
